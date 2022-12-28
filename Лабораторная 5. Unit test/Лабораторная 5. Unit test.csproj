@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Лабораторная_5._Unit_test</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="4.1\" />
+    <Folder Include="4.2\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Задание 1\Задание 1.csproj" />
+    <ProjectReference Include="..\Задание 2\Задание 2.csproj" />
+  </ItemGroup>
+
+</Project>
